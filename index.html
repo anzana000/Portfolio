@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header id = "home" >
+    <nav class = "navbar">
+        <div class = "logo"><a href = "home">Anzana Poudel</a></div>
+        <ul class = "nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class = "hamburger-menu">
+            <div class = "line1"></div>
+            <div class = "line2"></div>
+            <div class = "line3"></div>
+        </div>
+    </nav>
+     <!-- for type-writer effect -->
+     <div class = "type-writer">
+        <h1>Hi!</h1>
+        <h2>I'm Anjana</h2>
+        <h3>The <span class = "text-type" data-wait="3000" data-words='["Developer","Designer"]'>Developer</span></h3>
+        <div class = "button"><button><a href = "#">Hire me</a></button></div>
+    </div>
+    </header>
+ <!-- Main section -->
+ <main>
+    <!-- About us section -->
+    <section id = "about" class = "about">
+        <div class = "section-header"><h2>About</h2>
+            <span>Who I am</span>
+        </div>
+       <div class = "about-info"> 
+          <div class = "profile">
+              <img src = "./imgs/me.jpg"/>
+              <div class = "social-icons">
+               <a href ="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href = "#"><i class="fab fa-instagram" target="_blank"></i></a>
+                <a href = "https://github.com/anzana000" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href = "#"><i class="fab fa-linkedin-in" target="_blank"></i></a>
+                </div>
+          </div>
+       <div class = "profile-info">Hey guys im a Web developer,Designer and Programmer currently living in Butwal,Nepal.I make websites and web applications usually with Javascript(my base language).I enjoy creating things!
+           <div class = "skill-section">
+               <h2>Here are my some skills</h2>
+               <div class  = "skills">
+                   <div class = "skill-1">HTML</div>
+                   <div class = "skill-2">CSS</div>
+                   <div class = "skill-3">Bootstrap</div>
+                   <div class = "skill-4">Javascript</div>
+                   <div class = "skill-5">React.js</div>
+               </div>
+           </div>
+       </div></div>
+    </section>
+
+    <!-- Services section -->
+    <section id = "service" class = "service">
+        <div class = "section-header"><h2>Service</h2>
+            <span>What I do</span>
+           <div class = "service-container">
+           <div class = "wrapper">
+            <div class = "service-1">
+                <div class = "logo"><i class="fas fa-paint-brush"></i></div>
+                <div class = "logo-info"><span class = "service-title">Web Designing</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam impedit ipsum veritatis </div>
+            </div>
+            <div class = "service-2">
+                <div class = "logo"><i class="far fa-file-code"></i></div>
+                <div class = "logo-info"><span class = "service-title">App Development</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam impedit </div>
+            </div>
+            <div class = "service-3">
+                <div class = "logo"><i class="fas fa-desktop"></i></div>
+                <div class = "logo-info"><span class = "service-title">Web Development</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam impedit</div>
+            </div>
+           </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id = "contact" class = "contact">
+        <div class = "section-header"><h2>Contact</h2>
+            <span>Get in touch!</span>  
+            <div class = "contact-info">
+                <div class = "container-1">
+                    <div><i class="fas fa-phone-alt"></i><span>9815481576</span></div>
+                    <div><i class="fas fa-envelope"></i><span>anzana000@gmail.com</span></div>
+                    <div><i class="fas fa-map-marker-alt"></i><span>Butwal-8 Sukkhanagar</span></div>
+                </div>
+                <div class="container-2">
+                   <h2>Message Me</h2>
+                    
+                        <div class = "group"> 
+                        
+                        <input type = "text"/>
+                        <label class = "form-input-label">Name</label>
+                    </div>
+                       <div class = "group"> 
+                          
+                        <input type = "email"/>
+                        <label class = "form-input-label">Email</label>
+                    </div>
+                       
+                       <textarea placeholder="Send Message" rows="4" cols="30" style="resize: none;"></textarea>
+                       <button>Send Message</button>
+                </div>
+            </div> 
+    </section>
+</main>
+<footer id="footer">
+    <span>Created by <a href = "#" class = "name">Anjana Poudel</a> <i class="far fa-copyright"></i> | 2020 All rights reserved.</span>
+</footer>
+    
+    <script src="https://kit.fontawesome.com/d6f48edce3.js" crossorigin="anonymous"></script>  
+ <script src="./app.js"></script>   
+</body>
+</html>
