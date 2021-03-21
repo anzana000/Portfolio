@@ -16,7 +16,7 @@ body {
 
 /* Header section */
 header {
-  background: url("../imgs/okay.svg");
+  background: url("./imgs/okay.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
